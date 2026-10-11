@@ -69,7 +69,7 @@ h1{font-size:3.85rem;line-height:1;background:linear-gradient(100deg,#fff 20%,va
 .paused .bars i{animation-play-state:paused}
 @keyframes eq{0%,100%{transform:scaleY(.25)}35%{transform:scaleY(1)}65%{transform:scaleY(.5)}}
 .lyrics{position:relative;margin-top:6px;height:57px;overflow:hidden;-webkit-mask-image:linear-gradient(to bottom,transparent,#000 19px,#000 38px,transparent);mask-image:linear-gradient(to bottom,transparent,#000 19px,#000 38px,transparent)}
-.lyrics.empty{display:none}
+.lyrics.empty{visibility:hidden}
 .lyr-line{position:absolute;left:0;right:0;height:19px;display:flex;align-items:center;justify-content:center;text-align:center;padding:0 6px;font-size:.8rem;color:var(--mute);opacity:.55;letter-spacing:.01em;transition:top .4s cubic-bezier(.3,.8,.3,1),opacity .4s,font-size .4s,color .4s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .lyr-line.cur{color:#fff;opacity:1;font-size:.9rem;font-weight:600}
 .prog{margin-top:8px;height:22px;display:flex;align-items:center;cursor:pointer;touch-action:none}
@@ -164,10 +164,10 @@ a:focus-visible,button:focus-visible{outline:2px solid #fff;outline-offset:3px}
     kanji: "神",
     bio: "Quiet mind, loud soul.",
     place: "ur heart",
-    playlist: "Lazio's",
+    playlist: "Lazio's playlist",
     tracks: [
       {title:"0.1 in the end", src:"1.mp3", lrc:"1.lrc", cover:"https://i.pinimg.com/736x/1b/80/74/1b80741ad2c2b61cc593a6c37d845302.jpg"},
-      {title:"Không Cảm Xúc",        src:"2.mp3", lrc:"2.lrc", cover:"https://i.pinimg.com/736x/d7/ab/a5/d7aba5c24ae8362369bd844d7c52f0cb.jpg"},
+      {title:"mơ màng",        src:"2.mp3", lrc:"2.lrc", cover:"https://i.pinimg.com/736x/d7/ab/a5/d7aba5c24ae8362369bd844d7c52f0cb.jpg"},
       {title:"HE(ART)",        src:"3.mp3", lrc:"3.lrc", cover:"https://i.pinimg.com/736x/5a/98/86/5a9886c4928a5a58c64e8bfb9da1091d.jpg"}
     ],
     socials: [
